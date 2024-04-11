@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Frontend Mentor | Four card feature section</title>
+    <title>Frontend Mentor | Four card feature section</title>
 
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="visually-hidden">
+          Frontend Mentor | Four card feature section
+        </h1>
+      </header>
+      <main>
+        <section>
+          <div class="text-wrapper">
+            <h2 class="title main-title">
+              <spen class="noaccent-title">Reliable, efficient delivery</spen>
+              Powered by Technology
+            </h2>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+            <p class="mian-text">
+              Our Artificial Intelligence powered tools use millions of project
+              data points to ensure that your project is successful
+            </p>
+          </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+          <div class="cards-wrapper">
+            <div class="card first-card">
+              <h3 class="title">Supervisor</h3>
+              <p>Monitors activity to identify project roadblocks</p>
+            </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+            <div class="middle-cards-wrapper">
+              <div class="card second-card">
+                <h3 class="title">Team Builder</h3>
+                <p>
+                  Scans our talent network to create the optimal team for your
+                  project
+                </p>
+              </div>
 
-  
-  
-</body>
+              <div class="card third-card">
+                <h3 class="title">Karma</h3>
+                <p>Regularly evaluates our talent to ensure quality</p>
+              </div>
+            </div>
+
+            <div class="card forth-card">
+              <h3 class="title">Calculator</h3>
+              <p>
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
